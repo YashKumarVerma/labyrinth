@@ -1,8 +1,9 @@
 sudo: required
 dist: trusty
-language: python
+# language: python
+
 cache:
-  bundler: true
+  # bundler: true
   directories:
      - node_modules
 # rvm:

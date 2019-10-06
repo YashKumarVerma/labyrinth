@@ -1,12 +1,12 @@
 sudo: required
 dist: trusty
-language: ruby
+# language: ruby
 cache:
   bundler: true
   directories:
      - node_modules
-rvm:
-  - 2.3.3
+# rvm:
+  # - 2.3.3
 install:
   - bash scripts/check-javascript-syntax-errors.sh
   - bash scripts/check-html-syntax-errors.sh
